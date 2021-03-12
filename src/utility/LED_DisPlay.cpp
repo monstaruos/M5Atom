@@ -12,7 +12,7 @@ LED_Display::~LED_Display()
 
 }
 
-void LED_Display::run(void *data)
+void LED_Display::run(void *data __attribute__((__unused__)) )
 {
     data = nullptr;
 
